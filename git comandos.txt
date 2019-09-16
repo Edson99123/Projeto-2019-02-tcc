@@ -1,0 +1,36 @@
+## criar uma nova pagina com tudo integrado : ionic generate page (nome da pagina) // executar dentro do diretorio
+
+
+
+
+***********************************************************
+comandos git 
+
+git init : cria um repositorio local no diretorio 
+git remote add "nome do bach que quiser" "link do projeto.git" : cria o repositorio local com um nome
+git remote : monstra os repositorios criados no diretorio atual
+git commit -am ("observação") : envia as modificações e alterações para seu repositorio local 
+git add "nome qualquer": cria um novo arquivo no seu repositorio local 
+git push -u "nome do repositorio local" "nome do bach que quer colocar" : subir arquivos do repositorio local para o git hub
+git status : monstra os arquivos modificados e novos e monstra a quantidade de  commits para posteriormente fazer um push
+git log : monstra os logs de comites feitos 
+git clone "link do projeto.git" "criação de uma pasta no diretorio local (opcional)": copia o repositorio web para sua maquina
+
+Eu estava enfrentando o mesmo problema de clonar arquivos de ssh, agora estao em https
+
+meu .git / config tinha
+
+url = git@github.com:manishnakar/polymer-demo.git
+Substituí-o por
+
+url = https://github.com/manishnakar/polymer-demo.git 
+e funciona agora :)
+
+git checkout -b " nome do branch" : cria um novo branch dentro do projeto para trabalhar 
+git branch : monstra todos os branchs existentes 
+git checkout "testing ": cria um novo branch como o nome de testing
+git checkout "nome" : direciona para o branch desejado 
+git branch -D "nome" : deleta um branch desejado
+
+UNIAO DE branch
+
