@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
-import { TabsPageRoutingModule } from './tabs.router.module';
+import { TabsPageRoutingModule } from './tabs.router.module'; // criação da rota 
 
 import { TabsPage } from './tabs.page';
 
